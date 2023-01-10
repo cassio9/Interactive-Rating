@@ -50,6 +50,7 @@ const RatingPage: React.FC<Props> = ({ setOpenModal, rating, setRating }) => {
 			<div className="flex justify-between my-4 ">{ratingsHtml}</div>
 			<button
 				className="bg-Orange w-full rounded-2xl pt-1 h-12 my-4 text-white  uppercase tracking-widest active:bg-white active:text-Orange "
+				aria-label="Submit"
 				onClick={handleSubmit}>
 				Submit
 			</button>
